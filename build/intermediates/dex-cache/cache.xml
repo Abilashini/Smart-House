@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Semester 4\Automation challange- II\androidApp\SmartHouse\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\Semester 4\Automation challange- II\androidApp\SmartHouse\app\build\intermediates\pre-dexed\debug\classes-f6e8a996858ff92f32235b4990792a877f608b91.jar" />
+    </item>
+    <item
+        jar="D:\Semester 4\Automation challange- II\androidApp\SmartHouse\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\Semester 4\Automation challange- II\androidApp\SmartHouse\app\build\intermediates\pre-dexed\debug\classes-af58f854e585bc021c419bd5e5d221550cc03634.jar" />
+    </item>
+    <item
+        jar="C:\Users\Abilashini\AppData\Local\Android\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\Semester 4\Automation challange- II\androidApp\SmartHouse\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-882251ccd6b5b68bd40ea000f85f128a1cc2cd2d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Abilashini\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.5\686c608d1805b6d4d425ec4459e88164ffc85870\gson-2.5.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
+        <dex dex="D:\Semester 4\Automation challange- II\androidApp\SmartHouse\app\build\intermediates\pre-dexed\debug\gson-2.5-b3f844922ee6c979911c06b10a854084134ec1af.jar" />
+    </item>
+    <item
+        jar="D:\Semester 4\Automation challange- II\androidApp\SmartHouse\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="D:\Semester 4\Automation challange- II\androidApp\SmartHouse\app\build\intermediates\pre-dexed\debug\classes-0890bcb4e894157235ad397497f8c594b391749c.jar" />
+    </item>
+    <item
+        jar="D:\Semester 4\Automation challange- II\androidApp\SmartHouse\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\Semester 4\Automation challange- II\androidApp\SmartHouse\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-473b6649ff5c929098926773d9b1ec06137ca3a4.jar" />
+    </item>
+    <item
+        jar="D:\Semester 4\Automation challange- II\androidApp\SmartHouse\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="D:\Semester 4\Automation challange- II\androidApp\SmartHouse\app\build\intermediates\pre-dexed\debug\classes-408616fc749381af7d91f40f9653f72067ccd143.jar" />
+    </item>
+
+</items>

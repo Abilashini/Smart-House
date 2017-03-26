@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/back">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="  Visualization of Room 1"
+        android:id="@+id/textView7"
+
+        android:layout_marginTop="25dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginTop="41dp"
+        android:id="@+id/linearLayout">
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="90dp"
+        android:id="@+id/L1"
+        android:src="@drawable/yellow"
+        android:scaleType="centerCrop"
+         />
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="90dp"
+        android:id="@+id/L2"
+        android:src="@drawable/yellow"
+        android:scaleType="centerCrop"
+         />
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="90dp"
+        android:id="@+id/L3"
+        android:src="@drawable/yellow"
+        android:scaleType="centerCrop"
+         />
+
+    <ImageView
+        android:layout_width="9dp"
+        android:layout_height="50dp"
+        android:id="@+id/door"
+        android:src="@drawable/green"
+        android:scaleType="centerCrop"
+         />
+
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="50dp"
+        android:id="@+id/L4"
+        android:src="@drawable/yellow"
+        android:scaleType="centerCrop"
+         />
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginBottom="42dp">
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout4"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="       Motion Detected"
+            android:id="@+id/textView8"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="       Motion not Detected"
+            android:id="@+id/textView9"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/linearLayout4"
+            android:layout_alignStart="@+id/linearLayout4"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="       Door is Open"
+            android:id="@+id/textView10"
+            android:layout_alignBottom="@+id/linearLayout2"
+            android:layout_alignLeft="@+id/linearLayout4"
+            android:layout_alignStart="@+id/linearLayout4"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="       Door is Closed"
+            android:id="@+id/textView11"
+
+            android:layout_above="@+id/textView10"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_alignStart="@+id/textView10"
+            android:layout_marginBottom="50dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:id="@+id/linearLayout2"
+        android:layout_alignTop="@+id/linearLayout4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/blue"
+        android:scaleType="centerCrop"
+
+        android:layout_marginBottom="20dp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/yellow"
+        android:scaleType="centerCrop"
+
+        android:layout_marginBottom="20dp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/red"
+        android:scaleType="centerCrop"
+
+        android:layout_marginBottom="20dp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/green"
+        android:scaleType="centerCrop"
+
+        android:layout_marginBottom="50dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
